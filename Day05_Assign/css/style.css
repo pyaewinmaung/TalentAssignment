@@ -1,0 +1,138 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  font-weight: 600;
+}
+
+.wrap-inner {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.wrap-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.wrap-head header {
+  font-size: 28px;
+  font-weight: 800;
+}
+.wrap-head .detail a {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.wrap-head .detail a:hover {
+  text-decoration: underline;
+}
+
+.head-text {
+  font-family: calibri, sans-serif;
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.head-text h1 {
+  font-weight: 800;
+  font-size: 33px;
+  padding: 10px 0px;
+}
+.head-text h3 {
+  font-size: 26px;
+  padding: 5px 0px;
+}
+.head-text p {
+  font-size: 13px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.p-bloc {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.p-bloc__card {
+  display: block;
+}
+.p-bloc__card img {
+  width: 100%;
+  padding-bottom: 18px;
+}
+.p-bloc__txt {
+  text-align: left;
+  width: 60%;
+  font-family: calibri, sans-serif;
+}
+.p-bloc__txt h4 {
+  font-size: 21px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+.p-bloc__txt h4 p {
+  font-size: 13px;
+}
+
+.s-bloc {
+  display: block;
+}
+.s-bloc__bar {
+  display: flex;
+  justify-content: right;
+}
+.s-bloc__bar a {
+  padding-left: 50px;
+}
+.s-bloc__card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.s-bloc__card .new-product {
+  width: 33.3333333333%;
+}
+.s-bloc__card .new-product p {
+  padding: 13px;
+  padding-bottom: 25px;
+}
+
+.bottom-detail {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(66, 66, 66, 0.925);
+  justify-content: space-between;
+  padding: 15px 41px 23px 6px;
+  font-family: calibri;
+  align-items: center;
+}
+.bottom-detail__card a {
+  padding-right: 25px;
+}
+.bottom-detail__card a:hover {
+  text-decoration: underline;
+}
+.bottom-detail__made {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .wrap-inner {
+    max-width: 90%;
+  }
+  .p-bloc__card {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
